@@ -1,0 +1,223 @@
+// TIPOGRAFIA
+
+$fuenteThin: "Museo100";
+$fuenteLight: "Museo300";
+$fuenteBold: "Museo500";
+$fuenteBoldest: "Museo700";
+
+@font-face {
+  font-family: "Museo100";
+  src: url("/fonts/MuseoSans-100.otf");
+}
+
+@font-face {
+  font-family: "Museo300";
+  src: url("/fonts/MuseoSans-300.otf");
+}
+
+@font-face {
+  font-family: "Museo500";
+  src: url("/fonts/MuseoSans-500.otf");
+}
+
+@font-face {
+  font-family: "Museo700";
+  src: url("/fonts/MuseoSans-700.otf");
+}
+
+.textoThin {
+  font-family: $fuenteThin !important;
+}
+
+.textoLight {
+  font-family: $fuenteLight !important;
+}
+
+.textoBold {
+  font-family: $fuenteBold !important;
+}
+
+.textoBoldest {
+  font-family: $fuenteBoldest !important;
+}
+
+.tituloBackground {
+  color: white;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    line-height: 1.1;
+    font-family: $fuenteBoldest;
+    font-size: 7.75rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.subtituloBackground {
+  color: white;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    font-family: $fuenteThin;
+    font-size: 3.75rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+// FLEX OPTIONS
+
+.flexCenterCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexCenterStart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexBetweenStart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.flexBetweenCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexEvenlyCenter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexAroundCenter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flexStartCenter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexColumnCenterCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexColumnEndCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flexColumnBetweenCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexColumnAutoCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexColumnCenterAuto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexAutoCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flexEvenlyAuto {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+// BACKGROUND
+
+.contenedorTituloSubtituloBackground {
+  position: absolute;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    width: 60%;
+    bottom: 16rem;
+    left: 10rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+// CONTENEDOR COMPONENTE IMAGEN
+
+.imgNoBackground {
+  min-width: auto !important;
+  min-height: auto !important;
+  margin: 0 !important;
+}

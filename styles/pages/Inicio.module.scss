@@ -1,0 +1,60 @@
+@import "../colors.scss";
+
+.seccionBienvenida {
+  height: 100vh;
+  width: auto;
+  object-fit: contain;
+}
+
+.contenedorLogos {
+  display: flex;
+  position: absolute;
+  right: 10rem;
+  bottom: 5rem;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    width: 32%;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.logo {
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    width: 11.5rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
