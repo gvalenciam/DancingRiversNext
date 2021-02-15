@@ -1,3 +1,5 @@
+@import "./colors.scss";
+
 // TIPOGRAFIA
 
 $fuenteThin: "Museo100";
@@ -41,8 +43,9 @@ $fuenteBoldest: "Museo700";
   font-family: $fuenteBoldest !important;
 }
 
-.tituloBackground {
-  color: white;
+.textoMenu {
+  font-family: $fuenteLight;
+  color: $colorPrincipal;
 
   @media (min-width: 320px) {
   }
@@ -60,19 +63,16 @@ $fuenteBoldest: "Museo700";
   }
 
   @media (min-width: 1440px) {
-    line-height: 1.1;
-    font-family: $fuenteBoldest;
-    font-size: 7.75rem;
-    margin-bottom: 3rem;
+    font-size: 2rem;
   }
 
   @media (min-width: 1920px) {
   }
 }
 
-.subtituloBackground {
-  color: white;
+// PADDINGS
 
+.paddingGeneral {
   @media (min-width: 320px) {
   }
 
@@ -89,8 +89,8 @@ $fuenteBoldest: "Museo700";
   }
 
   @media (min-width: 1440px) {
-    font-family: $fuenteThin;
-    font-size: 3.75rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
 
   @media (min-width: 1920px) {
@@ -184,40 +184,8 @@ $fuenteBoldest: "Museo700";
   justify-content: space-evenly;
 }
 
-// BACKGROUND
+// CONTAINERS
 
-.contenedorTituloSubtituloBackground {
-  position: absolute;
-
-  @media (min-width: 320px) {
-  }
-
-  @media (min-width: 576px) {
-  }
-
-  @media (min-width: 768px) {
-  }
-
-  @media (min-width: 1024px) {
-  }
-
-  @media (min-width: 1200px) {
-  }
-
-  @media (min-width: 1440px) {
-    width: 60%;
-    bottom: 16rem;
-    left: 10rem;
-  }
-
-  @media (min-width: 1920px) {
-  }
-}
-
-// CONTENEDOR COMPONENTE IMAGEN
-
-.imgNoBackground {
-  min-width: auto !important;
-  min-height: auto !important;
-  margin: 0 !important;
+.relativeContainer {
+  position: relative;
 }

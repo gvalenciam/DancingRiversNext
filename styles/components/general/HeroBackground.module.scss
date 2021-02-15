@@ -1,0 +1,91 @@
+@import "../../utils.module.scss";
+
+.tituloBackground {
+  color: white;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    line-height: 1.1;
+    font-family: $fuenteBoldest;
+    font-size: 7.75rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.subtituloBackground {
+  color: white;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    font-family: $fuenteThin;
+    font-size: 3.75rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.contenedorImagenBackground {
+  height: 100vh;
+  width: auto;
+  object-fit: contain;
+}
+
+.contenedorTituloSubtituloBackground {
+  position: absolute;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    width: 60%;
+    bottom: 16rem;
+    left: 10rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}

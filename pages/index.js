@@ -1,32 +1,29 @@
 import Head from "next/head";
 import Image from "next/image";
-import utilStyles from "../styles/utils.module.scss";
 import cs from "classnames";
 
+import utilStyles from "../styles/utils.module.scss";
 import styles from "../styles/pages/Inicio.module.scss";
+
+import TituloBackground from "../components/general/HeroBackground";
+import NavbarDR from "../components/general/NavbarDR";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Dancing Rivers</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <section className={styles.seccionBienvenida}>
-        <Image
-          src={"/images/Inicio/background.png"}
-          alt="Background inicio"
-          layout="fill"
-        ></Image>
-        <div className={cs(utilStyles.contenedorTituloSubtituloBackground)}>
-          <h1 className={utilStyles.tituloBackground}>
-            Ríos danzantes en la cuenca amazónica
-          </h1>
-          <p className={utilStyles.subtituloBackground}>
-            La ciencia detrás del movimiento de los ríos
-          </p>
-        </div>
+      <NavbarDR extraStyles={utilStyles.flexBetweenCenter}></NavbarDR>
+
+      <div className={utilStyles.relativeContainer}>
+        <TituloBackground
+          imageSrc="/images/Inicio/background.png"
+          tituloBackground="Ríos danzantes en la cuenca amazónica"
+          subtituloBackground="La ciencia detrás del movimiento de los ríos"
+        ></TituloBackground>
         <div
           className={cs(styles.contenedorLogos, utilStyles.flexBetweenCenter)}
         >
@@ -58,7 +55,7 @@ export default function Home() {
             ></Image>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

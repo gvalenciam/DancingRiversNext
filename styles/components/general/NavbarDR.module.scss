@@ -1,0 +1,78 @@
+@import "../../utils.module.scss";
+
+.navbarDR {
+  background-color: transparent;
+  //   background-color: lightblue;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    height: 8.5rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  .navbarLogo {
+    cursor: pointer;
+    @media (min-width: 320px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1024px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
+
+    @media (min-width: 1440px) {
+      height: 6.5rem;
+      width: 27.3rem;
+    }
+
+    @media (min-width: 1920px) {
+    }
+  }
+
+  .contenedorMenus {
+    .listaMenus {
+      li {
+        margin-right: 3rem;
+      }
+
+      li:last-child {
+        margin-right: 0;
+      }
+
+      .menuItem {
+      }
+
+      .menuItemActivo {
+        font-family: $fuenteBoldest;
+      }
+    }
+  }
+}
