@@ -1,0 +1,124 @@
+@import "../../utils.module.scss";
+
+$colorFondoCard: rgba(255, 255, 255, 0.25);
+
+.contenedorCard {
+  background-color: $colorFondoCard;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    height: 40.5vh;
+    width: 17.5vw;
+  }
+
+  @media (min-width: 1920px) {
+    height: 40.5vh;
+    width: 17.5vw;
+  }
+
+  @media (min-width: 2560px) {
+  }
+
+  .contenedorIcono {
+    @media (min-width: 320px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1024px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
+
+    @media (min-width: 1440px) {
+      width: 7rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (min-width: 1920px) {
+    }
+
+    @media (min-width: 2560px) {
+    }
+  }
+
+  .tituloCard {
+    color: white;
+    font-family: $fuenteBoldest;
+
+    @media (min-width: 320px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1024px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
+
+    @media (min-width: 1440px) {
+      font-size: 4.5rem;
+    }
+
+    @media (min-width: 1920px) {
+    }
+
+    @media (min-width: 2560px) {
+    }
+  }
+
+  .subtituloCard {
+    color: white;
+    font-family: $fuenteLight;
+
+    @media (min-width: 320px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1024px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
+
+    @media (min-width: 1440px) {
+      width: 75%;
+      font-size: 2rem;
+    }
+
+    @media (min-width: 1920px) {
+    }
+
+    @media (min-width: 2560px) {
+    }
+  }
+}

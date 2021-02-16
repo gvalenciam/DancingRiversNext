@@ -9,7 +9,7 @@
 .contenedorLogos {
   display: flex;
   position: absolute;
-  right: 10rem;
+  right: 13rem;
   bottom: 5rem;
 
   @media (min-width: 320px) {
@@ -56,5 +56,101 @@
   }
 
   @media (min-width: 1920px) {
+  }
+}
+
+.contenedorTextoIntroduccion {
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    height: 60vh;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.backgroundDecoracion {
+  object-fit: contain;
+  height: auto;
+  width: 100vw;
+}
+
+.contenedorEstadisticas {
+  height: 100vh;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    .descripcion {
+      h1 {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  @media (min-width: 2560px) {
+  }
+}
+
+.contenedorCardsEstaditicas {
+  display: grid;
+  justify-content: center;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    margin: 0 7.5rem;
+    grid-gap: 3vh;
+    grid-template-columns: 17.5vw 17.5vw;
+    grid-template-rows: 40.5vh 40.5vh;
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  @media (min-width: 2560px) {
   }
 }
