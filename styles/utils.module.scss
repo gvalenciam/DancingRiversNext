@@ -84,7 +84,7 @@ $fuenteBoldest: "Museo700";
 }
 
 .textoMenu {
-  font-family: $fuenteLight;
+  font-family: $fuenteBold;
   color: $colorPrincipal;
 
   @media (min-width: 320px) {
@@ -104,6 +104,33 @@ $fuenteBoldest: "Museo700";
 
   @media (min-width: 1440px) {
     font-size: 2rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+}
+
+.textoSubmenu {
+  font-family: $fuenteBold;
+  color: $colorPrincipal;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 1.75rem;
   }
 
   @media (min-width: 1920px) {
