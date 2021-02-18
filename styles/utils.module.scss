@@ -158,7 +158,7 @@ $fuenteBoldest: "Museo700";
 
   @media (min-width: 1440px) {
     line-height: 1.1;
-    font-size: 5.5rem;
+    font-size: 4.75rem;
   }
 
   @media (min-width: 1920px) {
@@ -498,6 +498,13 @@ $fuenteBoldest: "Museo700";
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.flexColumnStartStart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .flexAutoCenter {

@@ -1,14 +1,35 @@
 @import "../../utils.module.scss";
 
 .botonDR {
-  background-color: transparent;
-  border: 3px solid white;
-  color: white;
-  font-family: $fuenteBold;
+  position: relative;
+  background-color: white;
+  border: none;
+  color: $colorPrincipal;
+  font-family: $fuenteBoldest;
   cursor: pointer;
-  transition: background-color 0.35s cubic-bezier(0.65, 0, 0.35, 1);
+  z-index: 1;
+  transition: color 0.5s cubic-bezier(0.65, 0, 0.35, 1);
 
   &:hover {
+    color: white;
+
+    &::before {
+      transform-origin: left;
+      transform: scaleX(1);
+    }
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: right;
+    z-index: -1;
+    transition: transform 0.35s cubic-bezier(0.65, 0, 0.35, 1);
     background-color: $colorPrincipalOscuro;
   }
 
@@ -28,7 +49,7 @@
   }
 
   @media (min-width: 1440px) {
-    padding: 2rem 3rem;
+    padding: 1.75rem 3rem;
     font-size: 2.25rem;
     margin-top: 5rem;
   }

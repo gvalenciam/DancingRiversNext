@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Head from "next/head";
 import Image from "next/image";
 import cn from "classnames";
@@ -17,13 +18,13 @@ import Background from "../components/decoration/Background";
 import Spacer from "../components/decoration/Spacer";
 import CardEstadistica from "../components/general/CardEstadistica";
 import Quote from "../components/general/Quote";
+import FooterDR from "../components/general/FooterDR";
 
 import { route } from "next/dist/next-server/server/router";
 import { urlObjectKeys } from "next/dist/next-server/lib/utils";
 
 export default function Home() {
   const router = useRouter();
-
   const randomQuote = QuoteUtils.generarRandomQuote();
 
   return (
@@ -33,7 +34,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavbarDR extraStyles={utilStyles.flexBetweenCenter}></NavbarDR>
+      <NavbarDR></NavbarDR>
 
       <div className={utilStyles.relativeContainer}>
         <TituloBackground
@@ -239,6 +240,39 @@ export default function Home() {
           autor={randomQuote.autor}
           cargoAutor={randomQuote.cargoAutor}
         ></Quote>
+      </section>
+
+      <section className={cn(utilStyles.relativeContainer)}>
+        <div className={cn(styles.overlayImagenNuestroEquipo)}></div>
+        <div>
+          <Background
+            imageSrc="/images/Inicio/Nuestro_equipo.jpg"
+            width={1920}
+            height={971}
+            alt="Nuestro equipo"
+          ></Background>
+        </div>
+
+        <div
+          className={cn(
+            styles.contenedorBotonNuestroEquipo,
+            utilStyles.flexColumnCenterCenter
+          )}
+        >
+          <p className={cn(utilStyles.tituloBold, utilStyles.textoBlanco)}>
+            Nuestro equipo
+          </p>
+          <BotonDR
+            titulo="Conócenos"
+            onClick={() => {
+              router.push("/nuestro-equipo");
+            }}
+          ></BotonDR>
+        </div>
+      </section>
+
+      <section>
+        <FooterDR></FooterDR>
       </section>
     </div>
   );

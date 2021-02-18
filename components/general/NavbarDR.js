@@ -231,6 +231,7 @@ class NavbarDR extends React.Component {
             utilsStyles.paddingGeneral,
             navbarStyles.navbarDR,
             utilsStyles.relativeContainer,
+            utilsStyles.flexBetweenCenter,
             this.props.extraStyles
           )}
           style={{ zIndex: 2 }}
@@ -238,8 +239,8 @@ class NavbarDR extends React.Component {
           <div className={navbarStyles.navbarLogo} style={{ zIndex: 2 }}>
             <Image
               src="/images/Logos/Logo_DR_color.png"
-              width={1887}
-              height={449}
+              width={1715}
+              height={375}
               layout="responsive"
               onClick={() => {
                 this.props.router.push("/");

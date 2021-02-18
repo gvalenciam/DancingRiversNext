@@ -1,0 +1,217 @@
+@import "../../utils.module.scss";
+
+$colorTextoFooter: #999393;
+
+.tituloFooter {
+  font-family: $fuenteBoldest;
+  color: black;
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 2.25rem;
+    margin-bottom: 3.5rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  @media (min-width: 2560px) {
+  }
+}
+
+.textoFooter {
+  font-family: $fuenteThin;
+  color: $colorTextoFooter;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 1.65rem;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  @media (min-width: 2560px) {
+  }
+}
+
+.contenedorInformacionFooter {
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    padding-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  @media (min-width: 2560px) {
+  }
+
+  .contenedorIconosRedes {
+    .iconoRedesFooter {
+      cursor: pointer;
+      &:last-of-type {
+        margin-right: 0;
+      }
+      @media (min-width: 320px) {
+      }
+
+      @media (min-width: 576px) {
+      }
+
+      @media (min-width: 768px) {
+      }
+
+      @media (min-width: 1024px) {
+      }
+
+      @media (min-width: 1200px) {
+      }
+
+      @media (min-width: 1440px) {
+        width: 2.5rem;
+        margin-right: 3rem;
+      }
+
+      @media (min-width: 1920px) {
+      }
+
+      @media (min-width: 2560px) {
+      }
+    }
+  }
+
+  .contenedorLogoDR {
+    @media (min-width: 320px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1024px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
+
+    @media (min-width: 1440px) {
+      width: 32.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    @media (min-width: 1920px) {
+    }
+
+    @media (min-width: 2560px) {
+    }
+  }
+}
+
+.contenedorCopyright {
+  @media (min-width: 320px) {
+  }
+
+  @media (min-width: 576px) {
+  }
+
+  @media (min-width: 768px) {
+  }
+
+  @media (min-width: 1024px) {
+  }
+
+  @media (min-width: 1200px) {
+  }
+
+  @media (min-width: 1440px) {
+    margin-bottom: 5rem;
+  }
+
+  @media (min-width: 1920px) {
+  }
+
+  @media (min-width: 2560px) {
+  }
+
+  .divisorFooter {
+    background-color: black;
+    border: none;
+    opacity: 0.1;
+    @media (min-width: 320px) {
+    }
+
+    @media (min-width: 576px) {
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (min-width: 1024px) {
+    }
+
+    @media (min-width: 1200px) {
+    }
+
+    @media (min-width: 1440px) {
+      height: 1.35px;
+      margin-bottom: 2rem;
+    }
+
+    @media (min-width: 1920px) {
+    }
+
+    @media (min-width: 2560px) {
+    }
+  }
+}
